@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //       var ankit = ["ankit", "ram", "shyam", 1, "baba", { name: "baba" }];
+      //       console.log(ankit);
+      //       console.log(ankit.name);
+
+      //       var ankit1 = [9, 1, 7, 3, 4, 5];
+      //       console.log(ankit1);
+
+      //       var ankit2 = ["ankit", "ram", "shyam", "baba", "radhey"];
+      //       console.log(ankit2);
+
+      //       var ankit3 = ["ankit", "ram", "shyam", "baba", "radhey"];
+      //       var data = ankit3[3];
+      //       console.log(data);
+
+      //       var ankit4 = {
+      //         fname: "ankit",
+      //         lname: "shyam",
+      //         age: 10,
+      //         add: "jaipur",
+      //         pNo: 9116304772,
+      //       };
+      //       console.log(ankit4);
+
+      //       var ankit5 = {
+      //         fname: "ankit",
+      //         lname: "shyam",
+      //         age: 10,
+      //         add: "jaipur",
+      //         pNo: 9116304772,
+      //       };
+      //       console.log(ankit5.pNo);
+
+      //       var ankit6 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+      //       console.log(ankit6.indexOf("a"));
+      //       console.log(ankit6.indexOf("b"));
+      //       console.log(ankit6.indexOf("c"));
+      //       console.log(ankit6.indexOf("d"));
+      //       console.log(ankit6.indexOf("e"));
+      //       console.log(ankit6.indexOf("f"));
+      //       console.log(ankit6.indexOf("g"));
+      //       console.log(ankit6.indexOf("h"));
+      //       console.log(ankit6.indexOf("i"));
+      //       console.log(ankit6.indexOf("j"));
+
+      //       var ankit6 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+      //       console.log(ankit6[0]);
+      //       console.log(ankit6[1]);
+      //       console.log(ankit6[2]);
+      //       console.log(ankit6[3]);
+      //       console.log(ankit6[4]);
+      //       console.log(ankit6[5]);
+      //       console.log(ankit6[6]);
+      //       console.log(ankit6[7]);
+      //       console.log(ankit6[8]);
+      //       console.log(ankit6[9]);
+
+      //       var myArray = ["a", "b", "c", 3, 9];
+
+      //       for (var item of myArray) {
+      //         console.log(item);
+      //       }
+
+      //      **************************** push
+      //       pop
+      //       a.shift
+      //       a.unshift ***************************/
+
+      // var a = [5, 9, 8, 1, 6];
+      // var newArray = [];
+      // for (var item of a) {
+      //   if (item > 5) {
+      //     newArray.push(0);
+      //   } else {
+      //     newArray.push(item);
+      //   }
+      // }
+      // console.log(newArray);
+
+      //       pass and fail
+
+      //       const a = [5, 9, 8, 1, 6];
+      //       const NewArray = a.map(function(item){
+      //         if (item>5) {
+      //           return 0
+      //         }
+      //         else{
+      //           return item
+      //         }
+      //       })
+      // console.log(NewArray)
+
+      var a = [50, 60, 70, 80, 40];
+      var newArray = [];
+      for (var item of a) {
+        if (item >= 60) {
+          newArray.push("pass");
+        } else {
+          newArray.push("fail");
+        }
+      }
+
+      console.log(newArray);
+
+      // // add  number
+
+      //       sum =sum a[i]
+
+      var a = [5, 9, 8, 1, 6];
+
+      var sum = 0;
+
+      for (i = 0; i < a.length; i++) {
+        sum = sum + a[i];
+      }
+      console.log(sum);
+
+      var b = ["a", "n", "k", "i", "t"];
+      var sum = "";
+      for (i = 0; i < b.length; i++) {
+        sum = sum + b[i];
+      }
+
+      console.log(sum);
+
+      const newarray1 = a.map(function (item) {
+        if (item <= 60) {
+          return "pass";
+        } else {
+          return "fail";
+        }
+      });
+
+      console.log(newarray1);
+    </script>
+  </body>
+</html>
