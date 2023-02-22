@@ -142,10 +142,6 @@
 
       console.log(newarray1);
 
-
-
-
-      
       // anonymous function
 
       (function (a, b) {
@@ -164,6 +160,27 @@
       }
       var ankit = abc(10, 70);
       console.log(ankit);
+
+      var array = [
+        { name: "ankir", age: 17 },
+        { name: "pranjal", age: 30 },
+        { name: "mohit", age: 22 },
+        { name: "shyam", age: 40 },
+        { name: "ankir", age: 17 },
+        { name: "pranjal", age: 30 },
+        { name: "mohit", age: 22 },
+        { name: "shyam", age: 40 },
+        { name: "mohit", age: 22 },
+        { name: "shyam", age: 40 },
+      ];
+
+      var newArray = array.filter(function (item) {
+        return item.age >= 18;
+      });
+
+      for (var item of newArray) {
+        console.log(item.name + " is valid for vote", item.age);
+      }
     </script>
   </body>
 </html>
