@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+}
+.container {
+  width: 32%;
+  margin-left: 27rem;
+  height: 31rem;
+  margin-top: 3rem;
+}
+
+.border1 {
+  border: 1px solid red;
+}
+
+.container p {
+  font-size: 23px;
+  font-family: math;
+  margin-left: 5rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.container input {
+  height: 2.6rem;
+  width: 16rem;
+  margin-left: 5rem;
+
+  padding-left: 16px;
+}
+
+.name {
+}
+
+.name label {
+  margin-left: 5rem;
+  color: chartreuse;
+}
+
+.fname {
+}
+.fname label {
+  margin-left: 5rem;
+  color: chartreuse;
+}
+
+.mname label {
+  margin-left: 5rem;
+  color: chartreuse;
+}
+
+.address label {
+  margin-left: 5rem;
+  color: chartreuse;
+}
