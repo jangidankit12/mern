@@ -13,10 +13,18 @@ function Header() {
             <a href="Signup">Signup</a>
           </li>
           <li>
-            <a href="#">about</a>
+            <a href="Aboutus">About-us</a>
           </li>
         </ul>
       </div>
+
+      {/* 
+    <div class="photo-gallery">
+    <div class="imggall">
+      <img src="../Images/graphic1.jpeg" alt="">
+      <img src="../Images/graphic2.jpeg" alt="">
+     <img src="../Images/graphic3.jpg" alt="">
+     </div> */}
     </div>
   );
 }
