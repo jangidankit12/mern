@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
-import Home from "./Component/home";
-import Singin from "./Component/Signin";
+
+import Singin from "./";
 
 const PublicRoutes = () => {
   return (

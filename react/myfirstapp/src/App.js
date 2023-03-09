@@ -10,7 +10,6 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      ;
       <PublicRoutes />
     </BrowserRouter>
   );
