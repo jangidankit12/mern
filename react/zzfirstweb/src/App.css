@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my form */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+  height: 4rem;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  margin-left: 45rem;
+}
+
+.nav ul li a {
+  float: left;
+  text-decoration: none;
+  padding: 1rem;
+  padding-left: 3rem;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+.background {
+  height: 32.7rem;
+  width: 78.9rem;
+}
+.nav a:hover {
+  color: red;
+}
+
+.port {
+  margin-top: -18rem;
+  margin-left: 50rem;
+}
+
+.signup {
+  background-color: white;
+  height: 30rem;
+}
+
+.form {
+  margin-top: 6rem;
+  margin-left: 46rem;
+  font-size: 1rem;
+}
+
+.form input {
+  height: 5vh;
+  width: 45vh;
+  padding-left: 1vh;
+  border-radius: 0.3rem;
+  border: 1px solid #5d5d5d;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid red;
+}
+.form label {
+  font-family: sans-serif;
+  color: #5d5d5d;
+  font-size: 0.8rem;
+}
+.signup img {
+  height: 24rem;
+  margin-top: -27rem;
+  margin-left: 7rem;
+}
+.form h2 {
+  color: green;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-left: 4rem;
+}
+.form h4 {
+  font-size: 0.7rem;
+  color: #5d5d5d;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  margin-left: 2.8rem;
+}
+.form h4 span {
+  color: black;
+}
+
+.form button {
+  height: 6vh;
+  background-color: green;
+  color: white;
+  width: 46.5vh;
+  border: none;
+  cursor: pointer;
+}
+.form p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  padding-top: 0.7rem;
+  color: #5d5d5d;
+}
