@@ -60,7 +60,10 @@ function Signup(props) {
           <button>Submit</button>
         </form>
         <h4>
-          Already have an account?<span>Log in</span>
+          Already have an account?
+          <span>
+            <a href="signin">Log in</a>
+          </span>
         </h4>
       </div>
       <img src="../images/Entorno-Green-Final.png" alt="" />

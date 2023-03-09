@@ -4,7 +4,7 @@ function Home() {
       <div class="nav">
         <ul>
           <li>
-            <a href="#">home</a>
+            <a href="Home">home</a>
           </li>
           <li>
             <a href="Signin">Signin</a>
