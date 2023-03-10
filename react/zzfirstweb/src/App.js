@@ -6,6 +6,8 @@ import { Signup } from "./Components/Signup";
 import { BrowserRouter } from "react-router-dom";
 import PublicRouters from "./PublicRouters";
 
+import { StopWatch } from "./Components/StopWatch";
+
 function App() {
   return (
     <>

@@ -1,8 +1,9 @@
+import ankitGs from "../Images/graphic3.jpg";
 function Aboutus() {
   return (
     <section class="about-us">
       <div class="about">
-        <img src="graphic3.jpg" class="pic" />
+        <img src={ankitGs} class="pic" />
         <div class="text">
           <h2>About Us</h2>
           <h5>

@@ -15,6 +15,9 @@ function Header() {
           <li>
             <a href="Aboutus">About-us</a>
           </li>
+          <li>
+            <a href="StopWatch">StopWatch</a>
+          </li>
         </ul>
       </div>
 
