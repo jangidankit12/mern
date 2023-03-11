@@ -221,10 +221,22 @@ span {
   border: 1px solid #4070f4;
 }
 
-.imgesgallery {
+/* .imgesgallery {
   width: 100%;
-}
+} */
 .imgesgallery {
+  display: flex;
+  flex-wrap: wrap;
   height: 10px;
+  flex-direction: column;
   width: 10px;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.imgesgallery > img {
+  height: 215px;
+  margin: 20px;
+  margin-top: 70rem;
+  width: 60vh;
+  margin-left: 2.3rem;
 }

@@ -26,7 +26,7 @@ function Signup(props) {
         <h2>Sign Up</h2>
         <br />
         <br />
-        <form onSubmit={onSubmitForm}>
+        <form onSubmit={(e) => onSubmitForm(e)}>
           <label for="name">Name*</label>
           <br />
           <input
@@ -66,7 +66,7 @@ function Signup(props) {
           </span>
         </h4>
       </div>
-      <img src="../images/Entorno-Green-Final.png" alt="" />
+      {/* <img src="../images/Entorno-Green-Final.png" alt="" /> */}
     </div>
   );
 }

@@ -24,9 +24,8 @@ function Home() {
 
       <div class="imgesgallery">
         <img src={ankit} alt="baba" />
-
-        <img src="{ankit}" alt="" />
-        <img src="{ankit}" alt="" />
+        <img src={ankit} alt="" />
+        <img src={ankit} alt="" />
       </div>
     </div>
   );

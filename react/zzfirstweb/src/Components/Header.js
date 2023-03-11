@@ -4,19 +4,19 @@ function Header() {
       <div class="nav">
         <ul>
           <li>
-            <a href="Home">home</a>
+            <a href="/">home</a>
           </li>
           <li>
-            <a href="Signin">Signin</a>
+            <a href="/Signin">Signin</a>
           </li>
           <li>
-            <a href="Signup">Signup</a>
+            <a href="/Signup">Signup</a>
           </li>
           <li>
-            <a href="Aboutus">About-us</a>
+            <a href="/Aboutus">About-us</a>
           </li>
           <li>
-            <a href="StopWatch">StopWatch</a>
+            <a href="/StopWatch">StopWatch</a>
           </li>
         </ul>
       </div>
