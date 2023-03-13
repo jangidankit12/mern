@@ -23,9 +23,9 @@ function Home() {
       <h1 class="port">My Portfolio</h1> */}
 
       <div class="imgesgallery">
-        <img src={ankit} alt="baba" />
-        <img src={ankit} alt="" />
-        <img src={ankit} alt="" />
+        <img src={ankit} className="ankbaba1" alt="baba" />
+        <img src={ankit} className="ankbaba1" alt="" />
+        <img src={ankit} className="ankbaba1" alt="" />
       </div>
     </div>
   );
