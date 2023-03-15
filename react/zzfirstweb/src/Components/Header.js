@@ -18,6 +18,9 @@ function Header() {
           <li>
             <a href="/StopWatch">StopWatch</a>
           </li>
+          <li>
+            <a href="/User">User</a>
+          </li>
         </ul>
       </div>
 
