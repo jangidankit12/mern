@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // // array mai se data
+      // var ankit = ["baba", "shyam"];
+      // console.log(ankit[1]);
+
+      // // objact mai se data
+      // var a = { name: "shyam", age: 10 };
+      // console.log(a.age);
+
+      // // array mai se object
+
+      // var b = [
+      //   { name: "jangid", lname: "ankit" },
+      //   { name: "gid", lname: "ankit" },
+      //   { name: "jang", lname: "ankit" },
+      // ];
+      // console.log();
+      // for (var i of b) {
+      //   console.log(i.name);
+      // }
+
+      //  var arrobj=[{name:"komal",age:21},{name:"ankit",age=22},{name:"akii",age:32}]
+      // console.log(arrobj)
+
+      // const arr = [
+      //   "ankit",
+      //   "pranjal",
+      //   "mohit",
+      //   "komal",
+      //   "dheeraj",
+      //   "rohit",
+      //   "raghu",
+      //   "ankit",
+      //   "pranjal",
+      //   "mohit",
+      //   "komal",
+      //   "dheeraj",
+      //   "rohit",
+      //   "raghu",
+      // ];
+
+      // one word
+
+      // const arr = ["ankit", "pranjal", "komal", "Oprakashsir"];
+
+      // function myfunction(searchtext) {
+      //   const newarr = arr.filter(function (item) {
+      //     const itemdata = item.toLowerCase();
+      //     const searchdata = searchtext.toLowerCase();
+      //     return itemdata.includes(searchdata);
+      //   });
+
+      //   console.log(newarr);
+      // }
+      // myfunction("a");
+
+      // two word
+
+      // const arr = ["ankit", "pranjal", "komal", "Oprakashsir"];
+
+      // function myfunction(searchtext) {
+      //   const newarr = arr.filter(function (item) {
+      //     const itemdata = item.toLowerCase();
+      //     const searchdata = searchtext.toLowerCase();
+      //     return itemdata.includes(searchdata);
+      //   });
+
+      //   console.log(newarr);
+      // }
+      // myfunction("an");
+
+      // three word
+
+      const arr1 = ["ankit", "pranjal", "komal", "Oprakashsir"];
+
+      function myfunction(searchtext) {
+        const newarr = arr1.filter(function (item) {
+          const itemdata = item.toLowerCase();
+          const searchdata = searchtext.toLowerCase();
+          return itemdata.includes(searchdata);
+        });
+
+        console.log(newarr);
+      }
+      myfunction("ank");
+
+      // map se 2 add krna
+
+      const arr = [1, 2, 3, 4, 5];
+
+      const newarr = arr.map(function (item) {
+        return item + 2;
+      });
+
+      console.log(newarr);
+
+      // map method
+
+      // var a = [8, 3, 4, 2, 1, 0, 3, 6, 9, 5];
+      // var b = a.map(function (item) {
+      //   if (item > 0) {
+      //     return 0;
+      //   } else {
+      //     return item;
+      //   }
+      // });
+      // console.log(b);
+    </script>
+  </body>
+</html>
