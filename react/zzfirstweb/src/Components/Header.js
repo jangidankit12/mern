@@ -21,6 +21,9 @@ function Header() {
           <li>
             <a href="/User">User</a>
           </li>
+          <li>
+            <a href="/Search">Search</a>
+          </li>
         </ul>
       </div>
 
