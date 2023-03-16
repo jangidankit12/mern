@@ -48,40 +48,44 @@ const Users = () => {
 
   return (
     <div>
-      <h3>Users</h3>
-      <div>
-        <input
-          value={SearchText}
-          placeholder="Search user"
-          onChange={(e) => setSearchText(e.target.value)}
-        />
-      </div>
-      <table border="2px">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Age</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filterUsers.length > 0 ? (
-            filterUsers.map((user) => {
-              return (
-                <tr>
-                  <td>{user.name}</td>
-                  <td>{user.email}</td>
-                  <td>{user.age}</td>
-                </tr>
-              );
-            })
-          ) : (
+      <center>
+        <br />
+        <h3>Users</h3>
+        <div>
+          <input
+            value={SearchText}
+            placeholder="Search user"
+            onChange={(e) => setSearchText(e.target.value)}
+          />
+        </div>
+        <br />
+        <table border="2px">
+          <thead>
             <tr>
-              <td colSpan={3}>No Users</td>{" "}
+              <th>Name</th>
+              <th>Email</th>
+              <th>Age</th>
             </tr>
-          )}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {filterUsers.length > 0 ? (
+              filterUsers.map((user) => {
+                return (
+                  <tr>
+                    <td>{user.name}</td>
+                    <td>{user.email}</td>
+                    <td>{user.age}</td>
+                  </tr>
+                );
+              })
+            ) : (
+              <tr>
+                <td colSpan={3}>No Users</td>{" "}
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </center>
     </div>
   );
 };
