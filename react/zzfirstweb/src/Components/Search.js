@@ -41,7 +41,11 @@ const Users = () => {
     console.log("searchText", SearchText);
 
     const filterUsersData = users.filter((user) => {
-      return user.name.toLowerCase().includes(SearchText.toLowerCase());
+      return (
+        user.name.toLowerCase().includes(SearchText.toLowerCase()) ||
+        user.age.toString().includes(SearchText.toLowerCase()) ||
+        user.email.toLowerCase().includes(SearchText.toLowerCase())
+      );
     });
     setFilterUsers(filterUsersData);
   }, [SearchText]);
