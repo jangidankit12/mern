@@ -13,7 +13,7 @@ function Header() {
       <div class="main">
         <div class="area">
           <h1>Unlimited movies, TV shows, and more.</h1>
-          <h3>Watch anywhere. Cancel anytime.</h3>
+          <h3>Watch anywhere. Cancel anytime (ANKIT JANGID).</h3>
 
           <div class="search">
             <input type="text" class="box" placeholder="Email" />
