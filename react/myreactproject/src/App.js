@@ -5,6 +5,7 @@ import Home from "./Component/Home";
 import Services from "./Component/Services";
 import Gallery from "./Component/Gallery";
 import PublicRouters from "./PublicRoutes";
+
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
