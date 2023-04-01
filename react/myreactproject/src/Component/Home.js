@@ -20,6 +20,7 @@ function Home() {
           <h2>id:{item.id}</h2>
           <h2>title:{item.title}</h2>
           <h2>id:{item.}</h2>
+          <h3>shyam</h3>
         </div>
       ))}
     </div>
