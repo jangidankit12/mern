@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.usergallery {
+  width: 100%;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+}
+
+.gallery img {
+  width: 33%;
+  height: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery img {
+  }
+}
