@@ -13,11 +13,18 @@
 }
 
 .gallery img {
-  width: 33%;
+  width: 95%;
   height: 300px;
 }
 
 @media screen and (max-width: 1000px) {
-  .gallery img {
+  .gallery {
+    display: block;
   }
 }
+
+/* @media (max-width: 572px) {
+  .gallery {
+    display: block;
+  }
+} */

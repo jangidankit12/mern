@@ -68,25 +68,48 @@
 
       // console.log(newarr);
 
+      // const array = [15, 7, 9, 8, 6, 4, 10];
+      // // const newarr = [];
+      // for (let item of array) {
+      //   if (item < 10) {
+      //     newarr.push(item);
+      //   }
+      // }
 
+      // console.log(newarr);
 
-      
-      const array = [15, 7, 9, 8, 6, 4, 10];
-      // const newarr = [];
-      for (let item of array) {
-        if (item < 10) {
-          newarr.push(item);
-        }
-      }
-
-      console.log(newarr);
-
-      
       // console.log(newarr);
       //   var object = { sunday: 1, monday: 2, tuesday: 3 };
       //   console.log(Object.keys(object));
       //   console.log(Object.values(object));
+
       //
+
+      const marks = {
+        monday: 1,
+        tuesday: 2,
+        wednesday: 3,
+        thursday: 4,
+        friday: 5,
+        saturday: 6,
+        sunday: 7,
+      };
+
+      sum = 0;
+      a = Object.values(marks);
+      b = Object.keys(marks);
+
+      console.log(a);
+
+      for (i of b) {
+        console.log(i);
+      }
+
+      for (i of a) {
+        sum = sum + i;
+      }
+
+      console.log(sum);
     </script>
   </body>
 </html>
