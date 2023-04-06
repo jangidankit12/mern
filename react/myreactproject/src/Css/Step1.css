@@ -42,3 +42,73 @@
   margin-top: 14%;
   display: inline-block;
 }
+
+.checkimg p {
+  color: black;
+  margin-left: 624px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.checkimg span {
+  color: black;
+  padding-left: 563px;
+  font-size: 27px;
+}
+
+.commitments p {
+  color: black;
+  padding-left: 567px;
+  position: relative;
+  top: 26px;
+}
+
+.commitments img {
+  width: 27px;
+  height: 27px;
+  position: relative;
+  right: 14px;
+}
+
+.checkright img {
+  width: 22px;
+  height: 25px;
+  position: relative;
+}
+.commitments {
+  width: 100%;
+}
+
+.commitments span {
+  padding-left: 32px;
+}
+
+.Nextbutt button {
+  color: white;
+  background-color: red;
+  height: 71px;
+  width: 405px;
+  padding-top: 13px;
+  margin-left: 497px;
+  margin-top: 64px;
+  /* outline: none; */
+  border: none;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+.hederfooter1 {
+  width: 100%;
+  background-color: #cbcbcb;
+  height: 100px;
+  position: relative;
+}
+
+.quescall {
+  margin-top: 24px;
+  color: #737373;
+  font-size: 15px;
+  position: absolute;
+  background-color: #cbcbcb;
+  margin-left: 25px;
+}
