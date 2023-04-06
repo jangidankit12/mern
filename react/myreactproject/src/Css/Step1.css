@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.heder {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.heder img {
+  height: 57px;
+  width: 207px;
+  margin-left: 51px;
+  margin-top: 14px;
+}
+.headersig {
+  width: 84px;
+  height: 10px;
+  margin: 22px;
+  border: none;
+  background-color: white;
+  margin-left: 850px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.check {
+  width: 100%;
+}
+
+.checkimg {
+  width: 100%;
+}
+.checkimg img {
+  color: red;
+  height: 50px;
+  width: 50px;
+  margin-left: 50%;
+  margin-top: 14%;
+  display: inline-block;
+}

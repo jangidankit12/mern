@@ -6,13 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./Component/Home";
 import Header from "./Component/Header";
 import Signin from "./Component/Signin";
+import Step1 from "./Component/Step1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header />
+    {/* <Home /> */}
     {/* <Signin /> */}
-    <App />
+    <Step1 />
   </React.StrictMode>
 );
 
