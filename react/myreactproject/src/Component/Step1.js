@@ -52,7 +52,28 @@ const Step1 = () => {
             <h1 class="quescall">Questions? Call 000-800-919-1694</h1>
           </div>
 
-          <div class="FAQ"></div>
+          <div class="FAQ">
+            <div className="faqpar">
+              <p>FAQ</p>
+              <p>Help Centre</p>
+              <p>Netflix Shop</p>
+              <p>Terms of Use</p>
+            </div>
+          </div>
+
+          <div class="FAQ1">
+            <div className="faqpar1">
+              <p>Privacy</p>
+            </div>
+          </div>
+          <p class="p11">Cookie Preferences</p>
+          <p class="p12">Corporate Information</p>
+          <div class="langu">
+            <select id="lang">
+              <option value="English">English</option>
+              <option value="Hindi">Hindi</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
