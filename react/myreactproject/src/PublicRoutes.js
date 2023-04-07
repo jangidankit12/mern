@@ -12,10 +12,10 @@ const PublicRoutes = () => {
     <Routes>
       <Route path="/home" element={<Home />} />
       <Route path="/gallery" element={<Gallery />} />
-      <Route path="/Header" element={<Header />} />
+      <Route path="/header" element={<Header />} />
       <Route path="/services" element={<Services />} />
       <Route path="/aboutUs" element={<AboutUs />} />
-      <Route path="/Signin" element={<Signin />} />
+      <Route path="/signin" element={<Signin />} />
       <Route path="/step1" element={<Step1 />} />
     </Routes>
   );
