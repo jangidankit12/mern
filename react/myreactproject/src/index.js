@@ -14,6 +14,7 @@ root.render(
     {/* <Home /> */}
     {/* <Signin /> */}
     <Step1 />
+    {/* <Header /> */}
   </React.StrictMode>
 );
 

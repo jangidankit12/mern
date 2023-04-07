@@ -6,7 +6,7 @@ import checkright from "../Images/checkright.png";
 
 const Step1 = () => {
   return (
-    <div>
+    <div class="bodyco">
       <div class="heder">
         <img src={net} alt="" />
         <button className="headersig">Sign In</button>

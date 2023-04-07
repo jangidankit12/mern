@@ -1,6 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+.bodyco {
   background-color: white;
 }
 
@@ -166,7 +169,7 @@
   width: 100px;
   height: 200px;
 }
-#lang{
+#lang {
   appearance: none;
   background: #fff;
   border: 1px solid #a6a6a6;
@@ -175,5 +178,4 @@
   height: 48px;
   padding: 10px 30px 12px 10px;
   width: 100%;
-
 }
