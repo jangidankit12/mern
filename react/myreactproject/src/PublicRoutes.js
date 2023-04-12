@@ -6,6 +6,7 @@ import Services from "./Component/Services";
 import AboutUs from "./Component/AboutUs";
 import Signin from "./Component/Signin";
 import Step1 from "./Component/Step1";
+import Step2 from "./Component/Step2";
 
 const PublicRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const PublicRoutes = () => {
       <Route path="/aboutUs" element={<AboutUs />} />
       <Route path="/signin" element={<Signin />} />
       <Route path="/step1" element={<Step1 />} />
+      <Route path="/step2" element={<Step2 />} />
     </Routes>
   );
 };

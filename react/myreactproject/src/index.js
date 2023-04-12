@@ -7,14 +7,16 @@ import Home from "./Component/Home";
 import Header from "./Component/Header";
 import Signin from "./Component/Signin";
 import Step1 from "./Component/Step1";
+import Step2 from "./Component/Step2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <Home /> */}
     {/* <Signin /> */}
-    <Step1 />
+    {/* <Step1 /> */}
     {/* <Header /> */}
+    <Step2 />
   </React.StrictMode>
 );
 

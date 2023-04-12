@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.Step2Logo {
+  width: 100%;
+}
+
+.Step2logoimg img {
+  height: 48px;
+  width: 225px;
+  margin-top: 31px;
+  padding-left: 70px;
+}
+.Step2button {
+  margin-left: 900px;
+  border: none;
+  font-weight: 800;
+  font-size: 23px;
+  font-family: initial;
+  position: absolute;
+  margin-top: 35px;
+}
+
+.step2hr {
+  color: rgb(99, 99, 99);
+  height: 80px;
+}
+
+.Step22ndpart {
+  width: 100%;
+}
+
+.Step22ndpart1 p {
+  color: #333333;
+  margin-left: 198px;
+  margin-top: -21px;
+}
+
+.Step22ndpart1 h3 {
+  color: #333333;
+  margin-left: 196px;
+  margin-top: -9px;
+}
+
+.Step2right img {
+  height: 27px;
+  width: 28px;
+  margin-left: 203px;
+  margin-top: 19px;
+}
+
+.Step2right p {
+  color: #333333;
+  margin-left: 251px;
+  margin-top: -26px;
+}
+
+.Step2right1 img {
+  height: 27px;
+  width: 28px;
+  margin-left: 203px;
+  margin-top: 19px;
+}
+
+.Step2right1 p {
+  color: #333333;
+  margin-left: 251px;
+  margin-top: -26px;
+}
+
+.Step2right2 img {
+  height: 27px;
+  width: 28px;
+  margin-left: 203px;
+  margin-top: 19px;
+}
+
+.Step2right2 p {
+  color: #333333;
+  margin-left: 251px;
+  margin-top: -26px;
+}
