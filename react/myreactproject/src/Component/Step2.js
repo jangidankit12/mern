@@ -37,13 +37,13 @@ function Step2() {
         <div class="recat">
           <div class="Step2Rect">
             <div class="Step2recta">Mobile</div>
+
+            <div class="Step2recta">basic</div>
+
+            <div class="Step2recta">Standard</div>
+
+            <div class="Step2recta">premium</div>
           </div>
-
-          <div class="Step2recta">basic</div>
-
-          <div class="Step2recta">Standard</div>
-
-          <div class="Step2recta">premium</div>
         </div>
       </div>
     </div>

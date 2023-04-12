@@ -84,17 +84,15 @@
   margin-top: -26px;
 }
 
-.recat {
-  margin-top: 53px;
-}
 .Step2Rect {
   margin-left: 469px;
+  display: flex;
 }
 .Step2recta {
   width: 113px;
   height: 100px;
   color: rgb(255, 255, 255);
-  background-color: red;
+  background-color: #ff8f8f;
   padding: 32px;
   margin-left: 40px;
   padding-top: 42px;
@@ -104,7 +102,7 @@
   width: 100px;
   height: 100px;
   color: rgb(255, 255, 255);
-  background-color: red;
+  background-color: #ff8f8f;
   padding: 18px;
   padding-top: 42px;
   margin-left: 100px;
@@ -114,7 +112,7 @@
   width: 100px;
   height: 100px;
   color: rgb(255, 255, 255);
-  background-color: red;
+  background-color: #ff8f8f;
   padding: 18px;
   padding-top: 42px;
   margin-left: 100px;
@@ -124,7 +122,7 @@
   width: 100px;
   height: 100px;
   color: rgb(255, 255, 255);
-  background-color: red;
+  background-color: #ff8f8f;
   padding: 18px;
   padding-top: 42px;
   margin-left: 100px;
@@ -132,4 +130,9 @@
 
 .recat {
   display: flex;
+  margin-top: 53px;
+}
+
+.Step2Rect :hover {
+  background-color: rgb(255, 0, 0);
 }
