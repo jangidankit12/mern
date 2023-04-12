@@ -62,7 +62,7 @@
   height: 27px;
   width: 28px;
   margin-left: 203px;
-  margin-top: 19px;
+  margin-top: 0px;
 }
 
 .Step2right1 p {
@@ -75,11 +75,61 @@
   height: 27px;
   width: 28px;
   margin-left: 203px;
-  margin-top: 19px;
+  margin-top: 0px;
 }
 
 .Step2right2 p {
   color: #333333;
   margin-left: 251px;
   margin-top: -26px;
+}
+
+.recat {
+  margin-top: 53px;
+}
+.Step2Rect {
+  margin-left: 469px;
+}
+.Step2recta {
+  width: 113px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 32px;
+  margin-left: 40px;
+  padding-top: 42px;
+}
+
+.Step2recta1 {
+  width: 100px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 18px;
+  padding-top: 42px;
+  margin-left: 100px;
+}
+
+.Step2recta2 {
+  width: 100px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 18px;
+  padding-top: 42px;
+  margin-left: 100px;
+}
+
+.Step2recta3 {
+  width: 100px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 18px;
+  padding-top: 42px;
+  margin-left: 100px;
+}
+
+.recat {
+  display: flex;
 }

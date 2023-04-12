@@ -33,6 +33,18 @@ function Step2() {
           <img src={step2right} alt="" />
           <p>Change or cancel your plan anytime.</p>
         </div>
+
+        <div class="recat">
+          <div class="Step2Rect">
+            <div class="Step2recta">Mobile</div>
+          </div>
+
+          <div class="Step2recta">basic</div>
+
+          <div class="Step2recta">Standard</div>
+
+          <div class="Step2recta">premium</div>
+        </div>
       </div>
     </div>
   );
