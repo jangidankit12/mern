@@ -12,7 +12,7 @@ import Step2 from "./Component/Step2";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <Home /> */}
+    <Home />
     {/* <Signin /> */}
     {/* <Step1 /> */}
     {/* <Header /> */}

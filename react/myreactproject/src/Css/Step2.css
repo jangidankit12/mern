@@ -1,9 +1,14 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: white;
+  /* background-color: white; */
 }
 
+.step2 {
+  background-color: white;
+  height: 100%;
+  height: 88rem;
+}
 .Step2Logo {
   width: 100%;
 }
@@ -22,6 +27,7 @@
   font-family: initial;
   position: absolute;
   margin-top: 35px;
+  background-color: white;
 }
 
 .step2hr {
@@ -135,4 +141,150 @@
 
 .Step2Rect :hover {
   background-color: rgb(255, 0, 0);
+}
+
+.Step2Price {
+  width: 100%;
+  display: flex;
+}
+
+.Step2price1 {
+  display: flex;
+}
+
+.Step2price1 p {
+  color: #333333;
+  margin-left: 213px;
+  margin-top: 14px;
+}
+
+.step2prices p {
+  color: #333333;
+  padding-left: 112px;
+}
+
+.step2prices {
+  display: flex;
+  position: absolute;
+  margin-top: -39px;
+  padding-left: 432px;
+}
+
+.Step2price2 span p {
+  color: red;
+}
+
+.step22hr {
+  height: 20px;
+  width: 72%;
+  color: #333333;
+  margin-left: 199px;
+  margin-top: -11px;
+}
+
+.Step2price2 span img {
+  margin-left: 112px;
+  height: 36px;
+  margin-top: -11px;
+  width: 39px;
+}
+.step22prices {
+  display: flex;
+  position: absolute;
+  margin-top: -39px;
+  padding-left: 432px;
+}
+
+.Step22price2 {
+  margin-left: 120px;
+  margin-top: 59px;
+}
+
+.Step22price2 span img {
+  margin-left: 0px;
+  height: 31px;
+  margin-top: -11px;
+  width: 30px;
+}
+
+.step2computer {
+  display: flex;
+  position: absolute;
+  margin-top: -50px;
+  padding-left: 657px;
+}
+
+.Step2computer1 {
+  margin-left: 149px;
+  margin-top: 70px;
+}
+
+.Step2computer1 span img {
+  margin-left: -103px;
+  height: 35px;
+  margin-top: 48px;
+  width: 33px;
+}
+
+.step21tv {
+  display: flex;
+  position: absolute;
+  margin-top: 2px;
+  padding-left: 657px;
+}
+
+.step21tv1 {
+  margin-left: 149px;
+  margin-top: 70px;
+}
+
+.step21tv1 span img {
+  margin-left: -103px;
+  height: 35px;
+  margin-top: 48px;
+  width: 33px;
+}
+
+.step2para {
+  width: 100%;
+}
+
+.step2para1 {
+}
+
+.step2para1 p {
+  color: #333333;
+  margin-top: 196px;
+  font-size: 12px;
+  margin-left: 224px;
+}
+
+.step2para2 {
+  color: #333333;
+  margin-top: 16px;
+  font-size: 12px;
+  margin-left: 224px;
+}
+
+.step2button {
+  width: 100%;
+}
+
+.step2button1 button {
+  color: white;
+  background-color: red;
+  border: none;
+  height: 49px;
+  width: 331px;
+  margin-left: 480px;
+  margin-top: 39px;
+}
+
+
+.hederfooter2 {
+  width: 100%;
+  background-color: #cbcbcb;
+  height: 245px;
+  position: relative;
+  margin-top: 133px;
 }
