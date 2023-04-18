@@ -1,9 +1,13 @@
 import ankit from "../Images/net.png";
-
+import { useNavigate } from "react-router-dom";
 import React from "react";
 import "../Css/Sign.css";
 
 function Header() {
+  // const baba = useNavigate();
+  // const handleAnkit = () => {
+  //   baba("/step1");
+  // };
   return (
     <div>
       <div class="outter-container">
@@ -33,7 +37,9 @@ function Header() {
               <div class="get-started">
                 <input type="text" name="" id="" placeholder="Email address" />
                 <a href="" class="btn-lg">
+                  {/* <button onClick={handleAnkit}> */}
                   Get started <i class="fas fa-chevron-right"></i>
+                  {/* </button> */}
                 </a>
               </div>
             </div>
@@ -247,7 +253,7 @@ function Header() {
                 </ul>
               </div>
             </div>
-            <p>NetFlix Taiwan</p>
+            <p> By :- Ankit Jangid</p>
           </div>
         </footer>
       </div>

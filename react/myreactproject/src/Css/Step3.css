@@ -1,0 +1,100 @@
+.Step3logo {
+  width: 50%;
+  display: flex;
+}
+
+.Step3logo img {
+  width: 36%;
+  height: 50px;
+  margin-left: 74px;
+  margin-top: 11px;
+}
+
+.Step3bg {
+  background-color: white;
+  height: 47rem;
+}
+
+.Step3Sign button {
+  height: 45px;
+  margin-left: 800px;
+  width: 117px;
+  border: none;
+  background-color: white;
+  margin-top: 12px;
+  color: #333333;
+}
+.step3hr {
+  color: rgb(99, 99, 99);
+  height: 80px;
+}
+
+.Step3img1 img {
+  height: 86px;
+  width: 115px;
+  margin-left: 486px;
+  margin-top: -1px;
+}
+.Step3img2 img {
+  height: 84px;
+  width: 100px;
+  margin-left: 0px;
+  margin-top: -15px;
+}
+.Step3img3 img {
+  height: 96px;
+  width: 87px;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+.Step3imges {
+  display: flex;
+}
+
+.Step3p1 p {
+  color: #333333;
+  margin-left: 619px;
+  margin-top: 22px;
+  font-size: 13px;
+  font-weight: inherit;
+}
+
+.Step3h1 h1 {
+  color: #333333;
+  margin-left: 508px;
+  font-size: 30px;
+}
+
+.Step3h1 h1 span {
+  margin-left: 100px;
+}
+
+.Step3p {
+  color: #333333;
+  margin-left: 514px;
+  margin-top: 15px;
+}
+
+.Step3p span {
+  color: #333333;
+  margin-left: 113px;
+  margin-top: 15px;
+}
+.step3p1 {
+  width: 100%;
+}
+
+.step3button1 {
+  width: 100%;
+}
+
+.step3button2 button {
+  width: 335px;
+  height: 60px;
+  margin-left: 482px;
+  margin-top: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 28px;
+}

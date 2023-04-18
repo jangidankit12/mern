@@ -3,13 +3,24 @@ import net from "../Images/net.png";
 import check from "../Images/check-mark.png";
 import "../Css/Step1.css";
 import checkright from "../Images/checkright.png";
+// import { useNavigate } from "react-router-dom";
 
 const Step1 = () => {
+  // const navigate = useNavigate();
+
+  // const handlenext = ()=>{
+  //   console.log(handlenext)
+  //   navigate("/step2")
+
   return (
     <div class="bodyco">
       <div class="heder">
         <img src={net} alt="" />
         <button className="headersig">Sign In</button>
+      </div>
+
+      <div class="step1hr">
+        <hr />
       </div>
       <div class="check">
         <div class="checkimg">
@@ -37,7 +48,10 @@ const Step1 = () => {
         </div>
 
         <div class="Nextbutt">
-          <button>Next</button>
+          <button>
+            {/* <button onClick={handlenext}> */}
+            <a href="Step2">Next</a>
+          </button>
         </div>
 
         <br></br>

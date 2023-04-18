@@ -1,0 +1,96 @@
+.Step4logo {
+  width: 50%;
+  display: flex;
+}
+
+.Step4logo img {
+  width: 36%;
+  height: 50px;
+  margin-left: 74px;
+  margin-top: 11px;
+}
+
+.Step4bg {
+  background-color: white;
+  height: 47rem;
+}
+
+.Step4Sign button {
+  height: 45px;
+  margin-left: 800px;
+  width: 117px;
+  border: none;
+  background-color: white;
+  margin-top: 12px;
+  color: #333333;
+}
+.step4hr {
+  color: rgb(99, 99, 99);
+  height: 80px;
+}
+.Step4p {
+  width: 100%;
+}
+
+.Step4p1 p {
+  color: #333333;
+  margin-left: 368px;
+  margin-top: -5px;
+  font-size: 13px;
+  font-weight: inherit;
+}
+
+.Step4h1 {
+  color: #333333;
+  margin-left: 364px;
+}
+
+.Step4h1 h1 {
+  color: #333333;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.Step4h1 h1 span {
+  margin-left: 4px;
+}
+
+.step4p1 {
+  width: 100%;
+}
+
+.Step4p p {
+  color: #333333;
+  margin-left: 369px;
+  margin-top: 15px;
+  line-height: 32px;
+}
+
+.step4input {
+  width: 100%;
+}
+
+.step4input1 {
+  margin-left: 368px;
+}
+.step4input1 input {
+  width: 408px;
+  height: 61px;
+  padding: 15px;
+  border: 1px solid red;
+}
+.step4button1 {
+  width: 100%;
+}
+
+.step4button2 button {
+  width: 409px;
+  height: 60px;
+  margin-left: 368px;
+  margin-top: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 28px;
+}

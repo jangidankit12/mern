@@ -8,15 +8,20 @@ import Header from "./Component/Header";
 import Signin from "./Component/Signin";
 import Step1 from "./Component/Step1";
 import Step2 from "./Component/Step2";
+import Step3 from "./Component/Step3";
+import Step4 from "./Component/Step4";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Home />
+    {/* <Home /> */}
     {/* <Signin /> */}
     {/* <Step1 /> */}
     {/* <Header /> */}
-    <Step2 />
+    {/* <Step3 /> */}
+    <Step4 />
+    {/* <Step2 /> */}
+    {/* <App /> */}
   </React.StrictMode>
 );
 
