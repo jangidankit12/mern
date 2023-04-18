@@ -10,6 +10,7 @@ import Step1 from "./Component/Step1";
 import Step2 from "./Component/Step2";
 import Step3 from "./Component/Step3";
 import Step4 from "./Component/Step4";
+import Step5 from "./Component/Step5";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,7 +20,8 @@ root.render(
     {/* <Step1 /> */}
     {/* <Header /> */}
     {/* <Step3 /> */}
-    <Step4 />
+    {/* <Step4 /> */}
+    <Step5 />
     {/* <Step2 /> */}
     {/* <App /> */}
   </React.StrictMode>
