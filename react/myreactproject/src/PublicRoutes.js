@@ -10,6 +10,7 @@ import Step2 from "./Component/Step2";
 import Step3 from "./Component/Step3";
 import Step4 from "./Component/Step4";
 import Step5 from "./Component/Step5";
+import Step5_1 from "./Component/Step5_1";
 const PublicRoutes = () => {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ const PublicRoutes = () => {
         <Route path="/step3" element={<Step3 />} />
         <Route path="/step4" element={<Step4 />} />
         <Route path="/step5" element={<Step5 />} />
+        <Route path="/step5_1" element={<Step5_1 />} />
       </Routes>
     </BrowserRouter>
   );
